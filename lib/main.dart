@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 abstract class Operations {
-  static num add(num left, num right) => (left + right);
+  static num add(num left, num right) => (left - right);
 
   static num multiply(num left, num right) => (left * right);
 
